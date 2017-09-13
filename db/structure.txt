@@ -1,0 +1,38 @@
+
+Project use mongo database 
+
+tables
+-----------------
+this sections provides tables descriptions, fields and how their are relationed
+
+
+tipo_inversion
+	
+	this table is intended to storage all kind of inversions
+	
+	fields : 
+	id
+	nombre
+	porcentaje_utilidad
+	tasa_pago
+
+clientes
+	
+	table storage all clients data
+
+	id
+	nombre
+
+inversion
+	
+	this table storage all inversions
+
+	id
+	fecha
+	tiempo_dias
+	id_cliente
+	importe
+
+pago_interes
+	
+	this table storage earnings for the inversions
