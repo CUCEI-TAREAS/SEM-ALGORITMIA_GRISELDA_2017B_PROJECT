@@ -1,5 +1,10 @@
+introduction
+-----------------
+Project uses mongo database 
 
-Project use mongo database 
+inversiones/
+-----------------
+this directory storage db tables and files to import model database
 
 tables
 -----------------
