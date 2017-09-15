@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>INVERMEX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <LINK href="../src/css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../src/js/main.js"></script>
+</head>
+<body>
+<div>
+    <h1 class="title-style">Menú Principal</h1>
+</div>
+<div>
+    <h2>Elige una de las opciones a continuación:</h2>
+</div>
+<div>
+    <ol>
+        <li>Captura de un nuevo cliente</li>
+        <li>Baja de un cliente</li>
+        <li>Modificar datos del cliente</li>
+        <li>Mostrar clientes</li>
+    </ol>
+</div>
+<div>
+    <label>Opción: </label>
+    <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="2">3</option>
+        <option value="4">4</option>
+    </select>
+</div>
+<hr>
+<form>
+    <div>
+        <h1>Alta de nuevo cliente</h1>
+    </div>
+    <div>
+        <span>Ingresa los siguientes datos: </span>
+        <table border="0">
+            <tr>
+                <td><label>Código</label></td>
+                <td><input type="text" name="code" placeholder="Código" onkeypress="return valida(event)"></td>
+            </tr>
+            <tr>
+                <td><label>Nombre</label></td>
+                <td><input type="text" name="name" placeholder="Nombre"></td>
+            </tr>
+            <tr>
+                <td><label>Fecha de nacimiento</label></td>
+                <td><input type="text" name="birthdate" placeholder="Fecha de Nacimiento"></td>
+            </tr>
+        </table>
+    </div>
+</form>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
