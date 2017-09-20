@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>INVERMEX</title>
+    <LINK href="assets/css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <LINK href="assets/js/bootstrap.js" type="text/css">
+</head>
+<body>
+<header class="header">
+    hola
+</header>
+<hr>
+<form>
+    <div>
+        <h1>Alta de nuevo cliente</h1>
+    </div>
+    <div>
+        <span>Ingresa los siguientes datos: </span>
+        <table border="0">
+            <tr>
+                <td><label>Código</label></td>
+                <td><input type="text" name="code" placeholder="Código" onkeyup="return deshabilita(event)" onkeypress="return valida(event)" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label>Nombre</label></td>
+                <td><input type="text" name="name" placeholder="Nombre"></td>
+            </tr>
+            <tr>
+                <td><label>Fecha de nacimiento</label></td>
+                <td><input type="text" name="birthdate" placeholder="Fecha de Nacimiento"></td>
+            </tr>
+        </table>
+    </div>
+</form>
+</body>
+</html>
