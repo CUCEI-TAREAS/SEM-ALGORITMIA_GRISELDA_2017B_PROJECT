@@ -2,6 +2,9 @@
     font-size: 80px;
     font-family: 'Unica One';
 }
+.form-header{
+    margin-left: 15%;
+}
 .subtitle-style{
     color: red;
 }
