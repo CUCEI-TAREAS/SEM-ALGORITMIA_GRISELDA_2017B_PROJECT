@@ -4,15 +4,38 @@
 }
 .form-header{
     margin-left: 15%;
+    margin-top: 1%;
 }
 .subtitle-style{
     color: red;
 }
 .header{
-    background-color: #721c24;
-    margin-top: -21px;
-    margin-left: -8px;
-    height: 5%;
+    background-color: #343a40;
+    height: 6%;
     position: absolute;
+    top: 0;
     width: 100%;
+}
+.footer{
+    background-color: #0b2e13;
+    height: 6%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.div{
+    margin: 5% 0 0 15%;
+    height: 30%;
+    width: 45%;
+    background-color: #FFFFFF;
+    box-shadow: 1px 3px 10px #000;
+}
+.hr{
+    display: block;
+    margin: 0.5em auto 0.5em auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.logo{
+    margin-top: 3%;
 }
