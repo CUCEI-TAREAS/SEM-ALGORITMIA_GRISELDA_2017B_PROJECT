@@ -1,0 +1,13 @@
+INTRODUCTION
+------------
+This file describe how to configure invermex project with apache servers
+
+DEPENDENCIES
+------------
+apache server with default configuation
+
+HOW TO SETUP
+------------
+copy file apache2.conf into /etc/apache2/
+copy file sites-available/000-default.conf into /etc/apache2/sites-available/
+
