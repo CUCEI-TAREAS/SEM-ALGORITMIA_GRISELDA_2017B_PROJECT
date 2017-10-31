@@ -1,1 +1,15 @@
+INTRODUCTION
+------------
+This file describe how are config, and work with Invermex.
+Invermex is a web application intended to handle inversions, clients, invoices.
+Invermex is use through web broswer.
+
+DEPENDENCIES
+------------
+Invermex is mounted on linux server with Apache + Django service with rest API to handle calls and MongoDB to storge data.
+
 python 3
+
+HOW TO CONFIGURE - SERVICES
+---------------------------
+
