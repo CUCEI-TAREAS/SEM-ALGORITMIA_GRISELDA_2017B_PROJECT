@@ -15,8 +15,9 @@ Including another URLconf
 """
 #from django.contrib import admin
 from django.conf.urls import url
-from invermex.views import index
+from invermex.views import index, register_client
 
 urlpatterns = [
     url(r'^$', index),
+    url(r'^register_client$', register_client),
 ]
