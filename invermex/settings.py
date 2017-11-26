@@ -54,7 +54,7 @@ ROOT_URLCONF = 'invermex.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/var/www/invermex/invermex/templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'invermex/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
