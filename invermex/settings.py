@@ -120,6 +120,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    "/var/www/invermex/invermex/static",
+    os.path.join(BASE_DIR, 'invermex/static'),
     '/var/www/static/',
 ]
