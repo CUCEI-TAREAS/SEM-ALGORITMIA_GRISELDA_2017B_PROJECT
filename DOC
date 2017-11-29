@@ -1,0 +1,16 @@
+DOCUMENTATION
+---------------------------
+
+VARIABLES IN TEMPLATES
+---------------------------
+templates/base.html
+	BASE_TITLE : string title for the html template
+	BASE_MAIN_TITLE : string title for the html template
+	BASE_MODAL_TITLE : string title for modal menu
+	BASE_MODAL_CLOSE : string to close modal menu
+	BASE_MODAL_LINKS_DICT : dict  {text : str, link : url }
+	BASE_MODAL_LINKS_LIST : BASE_MODAL_LINKS_DICT list for modal menu
+	BASE_FOOTER_TITLE :
+	BASE_FOOTER_SUBTITLE :
+	BASE_FOOTER_MEDIUM : medium string for footer
+	BASE_FOOTER_LAST : latest string for footer
