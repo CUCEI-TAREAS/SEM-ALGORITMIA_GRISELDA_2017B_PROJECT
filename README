@@ -9,7 +9,8 @@ DEPENDENCIES
 Invermex is mounted on linux server with Apache + Django service with rest API to handle calls and MongoDB to storge data.
 
 python 3
-django 1.10.7
+django 1.11.7
+
 
 HOW TO CONFIGURE - SERVICES
 ---------------------------
