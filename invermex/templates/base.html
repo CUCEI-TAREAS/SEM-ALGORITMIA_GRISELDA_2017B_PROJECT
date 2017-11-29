@@ -15,8 +15,7 @@
 	<button class="w3-bar-item w3-button" onclick="w3_close()">{{BASE_MODAL_CLOSE}} <i class="fa fa-remove"></i></button>
 
   {% for linkDict in BASE_MODAL_LINKS_LIST %}
-	  <p>{{ linkDict }}</p>
-	  <a href="{{ linkDict.text }}" class="w3-bar-item w3-button">{{ linkDict.text }}</a>
+	  <a href="{{ linkDict.url }}" class="w3-bar-item w3-button">{{ linkDict.text }}</a>
   {% endfor %}
 </nav>
 
