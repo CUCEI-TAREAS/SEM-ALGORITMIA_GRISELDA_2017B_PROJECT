@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% load static %}
+{% load staticfiles %}
 <html>
 	<title>{{ BASE_TITLE }}</title>
 <meta charset="UTF-8">
@@ -28,6 +28,8 @@
 	  <h1 class="w3-xxxlarge w3-animate-bottom">{{BASE_MAIN_TITLE}}</h1>
   </div>
 </header>
+
+{% block content %} {% endblock %}
 
 <!-- Footer -->
 <footer class="w3-container w3-theme-dark w3-padding-16">
