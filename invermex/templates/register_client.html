@@ -1,38 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>INVERMEX</title>
-    <LINK href="assets/css/main.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="src/assets/js/main.js"></script>
-    <LINK href="assets/js/bootstrap.js" type="text/css">
-</head>
-<body>
-<header class="header">
-    hola
-</header>
+{% extends "base.html" %} {% block content %} {% load staticfiles %}
+
+<div class="w3-row-padding">
+<form class="w3-container w3-card-4">
+  <h2>Registrar Inversionista </h2>
+  <div class="w3-section">      
+    <input class="w3-input" id="name" type="text" required>
+    <label>Nombre</label>
+  </div>
+  <div class="w3-section">      
+    <input class="w3-input" id="email" type="text" required>
+    <label>Email</label>
+  </div>
+  <div class="w3-section">      
+    <input class="w3-input" id="domicilio" type="text" required>
+    <label>Domicilio</label>
+  </div>
+  <div class="w3-section">      
+    <input class="w3-input" id="Telefono" type="text" required>
+    <label>Telefono</label>
+  </div>
+
+  <div class="w3-row">
+  <div class="w3-half">
+    <input id="persona" class="w3-check" type="checkbox" checked="checked">
+<label></label>
+<br><br>
+  </div>
+
+    <input id="moral" class="w3-radio" type="radio" name="gender" value="male" checked>
+    <label>Persona Moral</label>
+    <br>
+    <input id="fisica" class="w3-radio" type="radio" name="gender" value="female">
+    <label>Persona Fisica</label>
+    <br>
+  </div>
+  </div>
+
 <hr>
-<form>
-    <div>
-        <h1>Alta de nuevo cliente</h1>
-    </div>
-    <div>
-        <span>Ingresa los siguientes datos: </span>
-        <table border="0">
-            <tr>
-                <td><label>Código</label></td>
-                <td><input type="text" name="code" placeholder="Código" onkeyup="return deshabilita(event)" onkeypress="return valida(event)" maxlength="10"></td>
-            </tr>
-            <tr>
-                <td><label>Nombre</label></td>
-                <td><input type="text" name="name" placeholder="Nombre"></td>
-            </tr>
-            <tr>
-                <td><label>Fecha de nacimiento</label></td>
-                <td><input type="text" name="birthdate" placeholder="Fecha de Nacimiento"></td>
-            </tr>
-        </table>
-    </div>
-</form>
-</body>
-</html>
+<div class="w3-center">
+  <br>
+  <a class="w3-button w3-theme">Guardar</a>
+  <a class="w3-button w3-theme-d3 w3-disabled">Salir</a>
+  <br><br>
+  <a class="w3-button w3-circle w3-large w3-black"><i class="fa fa-plus"></i></a>
+</div>
+<br>
+{% endblock %}
