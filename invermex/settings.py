@@ -25,7 +25,7 @@ SECRET_KEY = 'm8@w)8c6kfa4pxw$_#h$m6#u6qbshd=)v7i9h%4w0ae64j_g4='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -120,6 +120,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'invermex/static'),
-    '/var/www/static/',
+	os.path.join(BASE_DIR, 'invermex/static'),
+	'/var/www/invermex/static/',
 ]
