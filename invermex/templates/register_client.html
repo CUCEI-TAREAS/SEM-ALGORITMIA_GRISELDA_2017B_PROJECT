@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% block content %} {% load staticfiles %}
 
 <div class="w3-row-padding">
-<form class="w3-container w3-card-4">
+<form class="w3-container w3-card-4"  method="POST" action="new_client">
   <h2>Registrar Inversionista </h2>
   <div class="w3-section">      
     <input class="w3-input" id="name" type="text" required>
@@ -23,7 +23,7 @@
   <div class="w3-row">
   <div class="w3-half">
     <input id="persona" class="w3-check" type="checkbox" checked="checked">
-<label></label>
+<label>Acepto los terminos y condiciones</label>
 <br><br>
   </div>
 
@@ -39,10 +39,11 @@
 <hr>
 <div class="w3-center">
   <br>
-  <a class="w3-button w3-theme">Guardar</a>
+  <input type="submit" value="Guardar" class="w3-button w3-theme">
   <a class="w3-button w3-theme-d3 w3-disabled">Salir</a>
   <br><br>
   <a class="w3-button w3-circle w3-large w3-black"><i class="fa fa-plus"></i></a>
 </div>
 <br>
+</form>
 {% endblock %}
