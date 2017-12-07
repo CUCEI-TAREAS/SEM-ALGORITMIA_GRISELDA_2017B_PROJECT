@@ -15,9 +15,11 @@ Including another URLconf
 """
 #from django.contrib import admin
 from django.conf.urls import url
-from invermex.views import index, register_client
+from invermex.views import *
 
 urlpatterns = [
     url(r'^$', index),
     url(r'^register_client$', register_client),
+    url(r'^register_investment$', register_investment),
+    url(r'^investment_panel$', investment_panel),
 ]
