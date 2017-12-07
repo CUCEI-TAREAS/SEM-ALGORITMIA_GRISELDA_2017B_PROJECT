@@ -24,3 +24,11 @@ def index(request):
 def register_client(request):
     t = get_template('register_client.html').render()
     return HttpResponse(t)
+
+def register_investment(request):
+    t = get_template('register_investment.html').render()
+    return HttpResponse(t)
+
+def investment_panel(request):
+    t = get_template('investment_panel.html').render()
+    return HttpResponse(t)
